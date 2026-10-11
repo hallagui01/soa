@@ -1,0 +1,8 @@
+workspace:
+  id: 2cb06d9b-6602-45e0-8515-e9c57b35d252
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  collections:
+    ../postman/collections/gestion etud opt: 58812798-7edbe838-fd2d-4dde-9893-175648e375ae

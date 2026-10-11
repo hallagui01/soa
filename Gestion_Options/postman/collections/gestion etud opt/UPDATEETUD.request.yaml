@@ -1,0 +1,25 @@
+$kind: http-request
+url: http://localhost:8081/Gestion_UE_VF_war_exploded/rest/etudiants/I001
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"identifiant\": \"I001\",\r
+
+    \  \"nom\": \"Doe\",\r
+
+    \  \"prenom\": \"Jean-Pierre\",\r
+
+    \  \"anneeEtude\": 2024,\r
+
+    \  \"email\": \"jeanpierre.doe@example.com\",\r
+
+    \  \"option\": {\r
+
+    \    \"codeOption\": 2\r
+
+    \  }\r
+
+    }"
+order: 10000

@@ -1,0 +1,25 @@
+$kind: http-request
+url: http://localhost:8081/Gestion_UE_VF_war_exploded/rest/etudiants
+method: POST
+body:
+  type: json
+  content: "   {\r
+
+    \     \"identifiant\": \"I005\",\r
+
+    \     \"nom\": \"chk\",\r
+
+    \     \"prenom\": \"eyette\",\r
+
+    \     \"anneeEtude\": 2026,\r
+
+    \     \"email\": \"eyette.chk@example.com\",\r
+
+    \     \"option\": {\r
+
+    \       \"codeOption\": 1\r
+
+    \     }\r
+
+    \   }"
+order: 8000
